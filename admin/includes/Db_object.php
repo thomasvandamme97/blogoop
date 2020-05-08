@@ -81,7 +81,7 @@ class Db_object
         $properties_assoc = array();
 
         foreach ($properties as $key => $value) {
-            $properties_assoc[] = "{key}='{value}'";
+            $properties_assoc[] = "{$key}='{$value}'";
         }
 
         $sql = "UPDATE " . static::$db_table . " SET " . implode(',', $properties_assoc) . " WHERE id = " . $database->escape_string($this->id);

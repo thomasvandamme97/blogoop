@@ -4,11 +4,13 @@
 class Photo extends Db_object
 {
     protected static $db_table = "photo";
-    protected static $db_table_fields = array('title', 'description', 'filename', 'type', 'size');
-    public $photo_id;
+    protected static $db_table_fields = array('title', 'caption', 'description', 'filename', 'alternate_text', 'type', 'size');
+    public $id;
     public $title;
+    public $caption;
     public $description;
     public $filename;
+    public $alternate_text;
     public $type;
     public $size;
 
@@ -35,14 +37,14 @@ class Photo extends Db_object
             return false;
         } else {
             $this->filename = basename($file['name']);
-            $this->tmp_path = $file['tmp_path'];
+            $this->tmp_path = $file['tmp_name'];
             $this->type = $file['type'];
             $this->size = $file['size'];
         }
     }
 
     public function save() {
-        if ($this->photo_id) {
+        if ($this->id) {
             $this->update();
         } else {
             if (!empty($this->errors)) {
@@ -67,6 +69,19 @@ class Photo extends Db_object
             } else {
                 $this->errors[] = "This folder has no write rights";
             }
+        }
+    }
+
+    public function picture_path() {
+        return $this->upload_directory . DS . $this->filename;
+    }
+
+    public function delete_photo() {
+        if ($this->delete()) {
+            $target_path = SITE_ROOT . DS . 'admin' . DS . $this->picture_path();
+            return unlink($target_path) ? true : false;
+        } else {
+            return false;
         }
     }
 }

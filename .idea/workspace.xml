@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2ae2dfc-a76d-4d36-85a6-2b43c6593b35" name="Default Changelist" comment="" />
+    <list default="true" id="e2ae2dfc-a76d-4d36-85a6-2b43c6593b35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/img/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Db_object.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Db_object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/photos.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/photos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,10 +30,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aWgBgXEduhuhgwpsvzjHTAk7QJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,9 +47,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../blogoop2" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -58,7 +79,11 @@
       <workItem from="1588425851447" duration="11000" />
       <workItem from="1588533578733" duration="543000" />
       <workItem from="1588575872805" duration="10326000" />
-      <workItem from="1588662354437" duration="9198000" />
+      <workItem from="1588662354437" duration="9847000" />
+      <workItem from="1588835250812" duration="13157000" />
+      <workItem from="1588856997819" duration="4481000" />
+      <workItem from="1588863861712" duration="1221000" />
+      <workItem from="1588921436596" duration="5151000" />
     </task>
     <servers />
   </component>
@@ -66,21 +91,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1588425860658">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1588924574606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588425860658" />
-    <state x="763" y="335" key="NewPhpClassDialog" timestamp="1588664780828">
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588924574606" />
+    <state x="763" y="335" key="NewPhpClassDialog" timestamp="1588857761627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588664780828" />
-    <state x="794" y="444" key="NewPhpFileDialog" timestamp="1588670098265">
+    <state x="763" y="335" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588857761627" />
+    <state x="794" y="444" key="NewPhpFileDialog" timestamp="1588921644208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="444" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588670098265" />
+    <state x="794" y="444" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588921644208" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1588924632439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588924632439" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588065191752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588065191752" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588836282344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588836282344" />
   </component>
 </project>
